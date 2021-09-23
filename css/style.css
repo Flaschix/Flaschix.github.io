@@ -1,0 +1,55 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.background-color-dark{
+    background-color: black;
+    color: white;
+}
+
+.nav-flex-item{
+    position: relative;
+    text-align: center;
+    float: right;
+    margin-right: 70px;
+    top: 30px;
+    font-size: 18px;
+}
+
+.header-title{
+    height: 150px;
+    width: 100%;
+    background-image: url(../assets/back.jpg);
+}
+
+.header-item{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+   
+}
+
+.warpper{
+    max-width: 1200px;
+    margin: 0px;
+    height: 100%;
+    padding: 2em 2em 2em 2em;
+}
+
+.foot{
+    position: fixed;
+    left: 0; bottom: 0; 
+    padding: 10px;
+    background: aqua;
+    color: #fff; 
+    width: 100%;
+}
