@@ -1,0 +1,97 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.background-color-dark{
+    background-color: black;
+    color: white;
+}
+
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-flex-item{
+    text-align: center;
+    margin: 30px 10px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.header-title{
+    height: 150px;
+    width: 100%;
+    background-image: url(../assets/back.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.competions{
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.pictureComp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.header-item{
+    padding: 15px;
+    color: white;
+    margin-left: 300px;
+}
+
+.warpper{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.picture{
+    margin:0;
+    float:right;
+    max-width:100%;
+    height:auto; 
+}
+
+.flex-row-div{
+    flex: 1 1 200px;
+    padding:10px;
+}
+
+.foot{
+    position: fixed;
+    left: 0; bottom: 0; 
+    padding: 10px;
+    background: aqua;
+    color: #fff; 
+    width: 100%;
+}
