@@ -36,19 +36,23 @@ ul{
 
 .nav-flex-item{
     text-align: center;
-    margin: 30px 10px;
+    margin: 30px 100px;
     margin-left: auto;
     font-size: 18px;
 }
 
+header{
+    
+}
+
 .header-title{
-    height: 150px;
+    height: 100vh;
     width: 100%;
-    background-image: url(../assets/back.jpg);
-    display: flex;
+    background: url(../assets/fon.jpg) no-repeat;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .compBox{
@@ -119,6 +123,7 @@ ul{
     padding: 15px;
     color: white;
     margin-left: 300px;
+    text-align: center;
 }
 
 .warpper{
